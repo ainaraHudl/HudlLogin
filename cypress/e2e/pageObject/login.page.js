@@ -46,4 +46,3 @@ export class LoginPage {
         return cy.get('[class="uni-link uni-link--default styles_signUpLink_1CPc8TbK9yDyBdJiSpUOZV"]')
     }
 }
-

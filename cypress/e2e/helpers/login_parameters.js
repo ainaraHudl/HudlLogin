@@ -3,5 +3,3 @@ export const login_parameters = {
     password: INSERT_YOUR_PASSWORD,
     username: INSERT_YOUR_USERNAME
  };
-
- 
