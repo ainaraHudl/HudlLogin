@@ -1,5 +1,5 @@
 
-==========================
+==============
 INTRO
 ==========================
 
@@ -8,7 +8,9 @@ In my day to day I develop with WebdriverIO with Selenium (and typescript).
 
 I have decided to use Cypress for this project because this tool makes it easier than WDIO for sharing and running as WDIO dependencies have to be installed for it to run. Also, I believe Cypress is quite similar to Playwright which was your requirement. I decided not to use PW because I have never worked with it so it would take me time to understand how it works and I may miss the deadline.
 
-==========================
+The code can be found under : HudlLogin/cypress/e2e/
+
+==============
 PAGE OBJECT MODEL
 ==========================
 
@@ -31,7 +33,7 @@ I have implemented the tests for the login page and other pages. I have tried im
 
 This folder can also be helpful, for example, creating functions that will create API functions against a database, or if we were running the application locally and we had to setup several configurations. 
 
-==========================
+==============
 SELENIUM – GHERKIN
 ==========================
 
@@ -56,7 +58,7 @@ Feature: Login page tests
 '
 The idea would be similar to the one implemented here, a "pageobject" folder for interacting with the different ids and also a "test" folder where the tests would reside, these tests would have some Given-when-then functions that would match the feature files content.
 
-==========================
+==============
 TESTS ENHANCEMENTS 
 ==========================
 
@@ -77,7 +79,7 @@ Login:
 2. Insert password but not email
 3. Remember me, I do not know the differences between having it on or not, how long the session would last for but a test should be included for it
 
-==========================
+==============
 OTHER AREAS TO THINK ABOUT
 ==========================
 
@@ -88,4 +90,3 @@ Things I have thought about but not implemented as they are outside the scope of
 3. Cross browser testing, I use Browserstack for my current project so for Hudl's project this would be an improvement. I have used Saucelabs as well in my previous project but we barely used it
 4. Accessibility testing
 5. SQL Injection, eg "select email,password from clients" as username or password 
-
