@@ -10,6 +10,7 @@ import {
   LOGIN_WITH_SSO_HEADER 
 } from '../helpers/content';
 
+
 describe('Login with organization tests', () => {
 
   const loginWithOrganization = new LoginWithOrganizationPage();
