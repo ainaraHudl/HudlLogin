@@ -77,7 +77,6 @@ Login:
 2. Insert password but not email
 3. Remember me, I do not know the differences between having it on or not, how long the session would last for but a test should be included for it
 
-
 ==========================
 OTHER AREAS TO THINK ABOUT
 ==========================

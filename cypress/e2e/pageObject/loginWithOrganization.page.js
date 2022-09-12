@@ -21,3 +21,4 @@ export class LoginWithOrganizationPage {
         return cy.get('[data-qa-id="go-back"]')
     }
 }
+
